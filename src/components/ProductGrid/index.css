@@ -1,0 +1,82 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+.heading-div{
+    height: 220px;
+}
+.heading{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: normal;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text{
+    color: #252020;
+    font-weight: 200;
+    align-self: center;
+    text-align: center;
+    font: 1em sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+.filter-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+}
+.filter-btn{
+    width: 150px;
+    background-color: transparent;
+    border: none;
+}
+.dis-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+select{
+    border: 0px;
+}
+.selected{
+    font-weight: 500;
+}
+.bold-txt{
+    font-weight: bold;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+option{
+    background-color: transparent;
+}
+.filter-div{
+    width: 23%;
+    position: relative;
+    margin-right: 10px;
+}
+.products-div{
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}

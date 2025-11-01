@@ -1,0 +1,25 @@
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input{
+    height: 18px;
+    width: 18px;
+}
+.filter{
+    height: 50px;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 4px;
+}
+span{
+    font-weight: 400;
+}
+details{
+    min-height: 60px;
+    max-height: 150px;
+}

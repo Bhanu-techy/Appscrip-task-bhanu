@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+}
+.logo-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.header-list{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select{
+    border: none;
+}
