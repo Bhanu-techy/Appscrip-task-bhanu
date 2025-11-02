@@ -21,5 +21,14 @@ span{
 }
 details{
     min-height: 60px;
-    max-height: 150px;
+    max-height: 170px;
+}
+
+.select-all-btn{
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    color: #bfbfbf;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

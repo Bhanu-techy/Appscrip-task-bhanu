@@ -1,0 +1,88 @@
+.footer-container{
+    background-color: #000000;
+    color: #ffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.footer-hr{
+    width: 80%;
+    margin: 10px;
+}
+.footer-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.signin-div{
+    width: 40%;
+}
+.subscribe-cont{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 520px;
+}
+.subscribe-btn{
+    border: 1px solid #625f5f;
+    border-radius: 2px;
+    color: #625f5f;
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    
+}
+.footer-input{
+    border-radius: 2px;
+    width: 350px;
+    height: 35px;
+    
+}
+.footer-para{
+    font-size: 15px;
+    color: #ffff;
+    font-weight: 300;
+}
+.small-txt{
+    font-size: 12px;
+}
+.footer-li{
+    font-size: 15px;
+    height: 30px;
+    font-weight: 400;
+}
+.footer-head{
+    height: 50px;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+}
+.payment-logo{
+    background-color: #ffff;
+    height: 32px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    width: 60px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.payment-img{
+    margin-left: 5px;
+}
+.insta-div{
+    border: 2px solid #ffff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}

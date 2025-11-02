@@ -2,7 +2,6 @@ import {useState} from 'react'
 import Filters from '../Filters'
 import ProductCard from '../ProductCard'
 
-
 import './index.css'
 
 const ProductGrid= props => {
@@ -47,6 +46,7 @@ const ProductGrid= props => {
           ))}
         </ul>
       </div>
+      
     </div>
   )
 }

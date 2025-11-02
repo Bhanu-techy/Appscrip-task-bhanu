@@ -14,6 +14,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -33,6 +35,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -52,6 +56,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -71,6 +77,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -90,6 +98,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -109,6 +119,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -128,6 +140,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
@@ -147,6 +161,8 @@ function Filters() {
         <br/><span>All</span>
       </summary>
       <div>
+        <button className='select-all-btn'>Unselect all</button>
+        <br/>
         <label>
           <input type="checkbox" value="men" /> Men
         </label>
