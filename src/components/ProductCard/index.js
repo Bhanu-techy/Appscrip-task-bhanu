@@ -15,7 +15,7 @@ const ProductCard=props =>{
 
   return (
     <li className='product-card'>
-    <img src={image} alt={`Image of ${title}`} className='product-img'/>
+    <img src={image} alt={`Img of ${title}`} className='product-img'/>
     <div className='card-txt-div'>
       <div className='product-details'>
         <p className='title'>{title}</p>

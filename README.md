@@ -1,6 +1,6 @@
 # Title
 
-    ***Appscrip-task-bhanu***
+***Appscrip-task-bhanu***
 
 ## 1.Objective
 
@@ -132,13 +132,9 @@ This structure promotes modularity—e.g., components folder keeps UI pieces sep
    
 ### Design files
 
-     Figma : https://www.figma.com/design/N0Tv7yYLf3kfMLQjUncUlx/Design-Task---PLP?node-id=653-3166&t=nKX7UrEelXgWPAV4-0
+Figma : https://www.figma.com/design/N0Tv7yYLf3kfMLQjUncUlx/Design-Task---PLP?node-id=653-3166&t=nKX7UrEelXgWPAV4-0
 
 
 ### APIs
 
    Link: https://fakestoreapi.com/
-    
-### Third-party packages
-
-    List the Third-party packages required for the Assignment, if any
