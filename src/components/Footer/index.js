@@ -14,21 +14,23 @@ function Footer() {
                 <button className='subscribe-btn'>Subscribe</button>
                 </div>
             </div>
+            <hr className="hr-sm"/>
             <div className='signin-div'>
                 <h3>CONTACT US</h3>
                 <p className='footer-para'>+44 221 33 5360</p>
                 <p className='footer-para'>customercare@mettumuse.com</p>
+                <hr className="hr-sm"/>
                 <h3>CURRENCY</h3>
                 <img src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1761931178/Language_zvo3ta.png" alt="us-logo"/>
-                <p className='small-txt'>Transactions will be completed in Euros and a currency reference is available on hover</p>
+                <p className='small-txt trans-para'>Transactions will be completed in Euros and a currency reference is available on hover</p>
             </div>
             
         </div>
         <hr className='footer-hr'/>
         <div className='footer-div'>
-           <div className='footer-info'>
-             <div >
-                <h2 className='fo'>metta muse</h2>
+           <div className='footer-info-div'>
+             <div className="footer-info">
+                <h2 >metta muse</h2>
                     <ul>
                         <li className='footer-li'>About Us</li>
                          <li className='footer-li'>Stories</li>
@@ -36,10 +38,22 @@ function Footer() {
                         <li className='footer-li'>Boutiques</li>
                         <li className='footer-li'>Contact Us</li>
                         <li className='footer-li'>EU Compliances Docs</li>
-                    </ul>
-                
+                    </ul>          
             </div>
-            <div>
+            <details className="dropdown-sm">
+                <summary className="summary">metta muse</summary>
+                <ul className="dropdown">
+                        <li className='footer-li'>About Us</li>
+                         <li className='footer-li'>Stories</li>
+                        <li className='footer-li'>Artisans</li>
+                        <li className='footer-li'>Boutiques</li>
+                        <li className='footer-li'>Contact Us</li>
+                        <li className='footer-li'>EU Compliances Docs</li>
+                    </ul>     
+            </details>
+            <hr className="hr-sm"/>
+
+            <div className="footer-info">
                 <h3>QUICK LINKS</h3>
                  <ul>
                         <li className='footer-li'>Orders & Shipping</li>
@@ -51,9 +65,22 @@ function Footer() {
                         <li className='footer-li'>Terms & Conditions</li>
                     </ul>
             </div>
+            <details className="dropdown-sm">
+                <summary className="summary">QUICK LINKS</summary>
+                <ul className="dropdown">
+                     <li className='footer-li'>Orders & Shipping</li>
+                    <li className='footer-li'>Join/Login as a Seller</li>
+                    <li className='footer-li'>Payment & Pricing</li>
+                    <li className='footer-li'>Return & Refunds</li>
+                    <li className='footer-li'>FAQs</li>
+                    <li className='footer-li'>Privacy Policy</li>
+                    <li className='footer-li'>Terms & Conditions</li>
+                </ul>
+            </details>
            </div>
-           <div>
-                <div>
+           <hr className="hr-sm"/>
+           <div className="payment-cont">
+                <div className="followus-cont">
                     <h2>FOLLOW US</h2>
                     <div className="dis-flex">
                         <div className="insta-div">

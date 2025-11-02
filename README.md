@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    ***Appscrip-task-bhanu***
 
-## Available Scripts
+## 1.Objective
 
-In the project directory, you can run:
+The goal of this project is to create a fully functional Product Listing Page (PLP) that matches the design specified in the Figma file 
 
-### `npm start`
+This page simulates an e-commerce listing interface, typically including sections like a header with navigation, filters for refining products, a grid of product cards, and a footer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The purpose is to demonstrate skills in front-end development, including:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Translating a UI design into code using HTML, CSS, and React.js.
+- Ensuring responsiveness across devices (desktop, tablet, mobile).
+- Optimizing for SEO (e.g., semantic tags, meta descriptions, alt text).
+- Integrating optional dynamic data from a mock API (e.g., Fake Store API).
+- Deploying the page to a public host and version-controlling the code on GitHub.
 
-### `npm test`
+By the end, you'll have a live, shareable page that evaluators can review for code structure, naming conventions, minimal dependencies, screen adaptability, and minimal DOM size. This project emphasizes clean, efficient code without over-relying on external libraries.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2.Technical Requirements
 
-### `npm run build`
+- **Software and Tools**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - **Code Editor**: Visual Studio Code (VS Code) – free, with extensions like Prettier for formatting and ESLint for code linting.
+    - **Version Control**: Git – install from https://git-scm.com/. You'll need a free GitHub account.
+    - **Node.js and npm**: Version 14+ (includes npm for package management). Download from https://nodejs.org/. Node.js is optional if not using a server, but required for React setup.
+    - **Browser**: Google Chrome or Firefox for testing, with developer tools enabled.
+    - **Deployment Platform**: Netlify account (free tier) – sign up at https://www.netlify.com/.
+    - **Optional Mock API**: Use https://fakestoreapi.com/ for sample product data (no setup needed; it's a public API).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Libraries/Packages**:
+    - React.js (via Create React App) – minimal setup.
+    - No heavy frameworks like Bootstrap; use pure CSS for styling to minimize dependencies.
+    - Optional: Axios for API calls (if using mock data) – install via npm if needed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Skills Assumed**:
+    - Basic knowledge of HTML/CSS/JavaScript.
 
-### `npm run eject`
+Ensure your system is updated, and test installations by running commands like `node -v` and `git --version` in your terminal.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Step-by-Step Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these steps in order. Each step includes why it's important, what to do, and tips for beginners. Take your time—test frequently by running the app locally.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Step 1: Review the Figma Design
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Why?** Understand the layout, colors, fonts, and components to accurately replicate the page.
+- **How to Do It**:
+    1. Open the Figma link in your browser.
+    2. Inspect layers: Click on elements to see properties like sizes, colors (e.g., hex codes), fonts (e.g., Roboto), and spacing.
+    3. Note responsive views: Check artboards for desktop, tablet (e.g., 768px width), and mobile (e.g., 375px width).
+    4. Sketch a wireframe on paper: Identify sections like header (logo, nav, search), sidebar filters (categories, price sliders), product grid (cards with images, titles, prices), pagination, and footer.
+- **Tips**: Export assets (e.g., icons, images) from Figma as PNG/SVG. Use tools like Figma's inspect panel for CSS values.
 
-## Learn More
+### Step 2: Set Up Your Development Environment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Why?** A proper setup ensures smooth coding and version control.
+- **How to Do It**:
+    1. Install Node.js and Git if not already done.
+    2. Create a GitHub repository: Name it "Appscrip-task-[Your Name]" (e.g., Appscrip-task-John-Doe). Make it public.
+    3. Clone the repo locally: Open terminal, run `git clone <https://github.com/yourusername/Appscrip-task-yourname.git`>.
+    4. Navigate to the folder: `cd Appscrip-task-yourname`.
+    5. Initialize a React app: Run `npx create-react-app .` (the dot uses the current folder).
+- **Tips**: If you encounter errors, check Node.js installation. Commit early with messages like "Initial setup".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Step 3: Implement Static HTML and CSS
 
-### Code Splitting
+- **Why?** Start with basics before adding React for easier debugging.
+- **How to Do It**:
+    1. In the `public` folder, update `index.html`: Add `<title>Product Listing Page</title>` and meta tags like `<meta name="description" content="Browse our collection of products with filters and search.">`.
+    2. In `src`, create a CSS file (e.g., `App.css`): Define global styles like fonts, colors from Figma.
+    3. Build layout: Use semantic HTML tags (e.g., `<header>`, `<main>`, `<footer>`, `<h1>Products</h1>`, `<h2>Filters</h2>`).
+    4. Add responsiveness: Use media queries in CSS (e.g., `@media (max-width: 768px) { ... }` to stack elements).
+    5. Optimize images: Name them SEO-friendly (e.g., "product-shirt-blue.jpg"), add `alt="Blue shirt product image"`.
+- **Tips**: Test in browser dev tools (resize window). Keep DOM minimal by avoiding unnecessary nested divs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Step 4: Convert to React Components
 
-### Analyzing the Bundle Size
+- **Why?** React makes the page dynamic and reusable.
+- **How to Do It**:
+    1. Break into components: Create files like `Header.js`, `Filters.js`, `ProductCard.js`, `ProductGrid.js`.
+    2. Use state for interactivity: In `App.js`, import components and manage data (e.g., products array).
+    3. Add optional API integration: Fetch data from Fake Store API in `useEffect`.
+    4. Implement SEO in React: Use `react-helmet` (install if needed) for dynamic titles/descriptions. Add [schema.org](http://schema.org/) JSON-LD for products.
+    5. Minimize packages: Avoid extras; use built-in React features.
+- **Tips**: Run `npm start` to preview. Debug with console logs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Step 5: Add Responsiveness and Testing
 
-### Making a Progressive Web App
+- **Why?** Ensure the page works on all devices.
+- **How to Do It**:
+    1. Use CSS Flexbox/Grid for layout (e.g., grid for products).
+    2. Test breakpoints: Mobile (stack vertically), Tablet (2-column grid), Desktop (3+ columns).
+    3. Check SEO: Validate with tools like Google's Structured Data Testing Tool.
+    4. Optimize DOM: Use React's virtual DOM; avoid deep nesting.
+- **Tips**: Use Chrome's mobile emulation. Fix issues like overflowing text.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Step 6: Deploy and Share
 
-### Advanced Configuration
+- **Why?** Make it accessible for evaluation.
+- **How to Do It**:
+    1. Build the app: Run `npm run build`.
+    2. Deploy to Netlify: Drag the `build` folder to [app.netlify.com](http://app.netlify.com/) or link GitHub repo for auto-deploys.
+    3. Push to GitHub: `git add .`, `git commit -m "Final deployment"`, `git push`.
+    4. Share links: Provide GitHub repo and Netlify URL.
+- **Tips**: If using API, ensure CORS allows it. Test live site.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 4. Project Structure
 
-### Deployment
+Organize your project for clarity and maintainability. A typical React structure looks like this:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Root Folder (Appscrip-task-yourname)**:
 
-### `npm run build` fails to minify
+    - `public/` : Static files like `index.html`, images (e.g., `assets/product-image.jpg`).
+    - `src/` : Source code.
+        - `components/` : Reusable parts.
+            - `Header.js` : Navigation and search.
+            - `Filters.js` : Sidebar with checkboxes/sliders.
+            - `ProductCard.js` : Individual product display.
+            - `Footer.js` : Bottom links.
+        - `App.js` : Main component assembling everything.
+        - `App.css` : Global styles.
+        - `index.js` : Entry point.
+    - `package.json` : Dependencies (e.g., React).
+    - `.gitignore` : Ignore node_modules.
+    - `README.md` : Describe project, setup instructions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This structure promotes modularity—e.g., components folder keeps UI pieces separate.
+
+## Resources
+   
+### Design files
+
+     Figma : https://www.figma.com/design/N0Tv7yYLf3kfMLQjUncUlx/Design-Task---PLP?node-id=653-3166&t=nKX7UrEelXgWPAV4-0
+
+
+### APIs
+
+   Link: https://fakestoreapi.com/
+    
+### Third-party packages
+
+    List the Third-party packages required for the Assignment, if any

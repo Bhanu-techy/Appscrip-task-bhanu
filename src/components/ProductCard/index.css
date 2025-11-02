@@ -22,7 +22,7 @@
 }
 .card-txt-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 .title{
@@ -31,4 +31,28 @@
 .signin-txt{
     font-size: 15px;
     color: gray;
+}.product-details{
+    width: 90%;
+}
+
+@media (max-width: 768px){
+    .product-card{
+        margin: 5px;
+        width: 210px;
+        height: 360px;
+    }
+    .product-img{
+        height: 200px;
+    }.title{
+        font-size: 12px;
+    }.signin-txt{
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 576px) {
+    .product-card{
+        width: 47%;
+        height: 315px;
+    }
 }

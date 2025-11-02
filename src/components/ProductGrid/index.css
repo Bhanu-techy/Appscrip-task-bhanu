@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
+    box-sizing: border-box;
 }
 .heading-div{
     height: 220px;
@@ -79,4 +80,36 @@ option{
 ul{
     margin: 0px;
     padding: 0px;
+}
+.filter-btn-sm{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .heading{
+        font-size: 45px;
+        letter-spacing: 1px;
+    }.text{
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }.break-el{
+        display: none;
+    }
+}
+
+@media (max-width : 576px) {
+    .heading{
+        font-size: 38px;
+    }.items-count{
+        display: none;
+    }.filter-btn-sm{
+        display: inline;
+         width: 150px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    }.filter-btn{
+        display: none;
+    }
 }

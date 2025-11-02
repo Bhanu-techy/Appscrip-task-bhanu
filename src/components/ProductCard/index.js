@@ -17,7 +17,7 @@ const ProductCard=props =>{
     <li className='product-card'>
     <img src={image} alt={`Image of ${title}`} className='product-img'/>
     <div className='card-txt-div'>
-      <div>
+      <div className='product-details'>
         <p className='title'>{title}</p>
         <p className='signin-txt'><u>Sign in</u> or Create an account to see price</p>
       </div>

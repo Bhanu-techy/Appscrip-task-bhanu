@@ -8,6 +8,20 @@ import './index.css'
 function Header() {
   return (
     <header>
+      <div className="dark-container">
+        <div className="logo-div-sm">
+          <img src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1762075630/element-4_ujtwtu.png" alt="logo"/>
+          <p>Loren ipsum dolor</p>
+        </div>
+        <div  className="dis-flex">
+          <img src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1762075630/element-4_ujtwtu.png" alt="logo"/>
+          <p>Loren ipsum dolor</p>
+        </div>
+        <div  className=" logo-div-sm">
+          <img src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1762075630/element-4_ujtwtu.png" alt="logo"/>
+          <p>Loren ipsum dolor</p>
+        </div>
+      </div>
         <div className='logo-container'>
         <img src="https://res.cloudinary.com/dsqphsoxb/image/upload/v1761931168/Logo_s9w9az.png" alt="logo"/>
         <h1>LOGO</h1>
@@ -20,6 +34,10 @@ function Header() {
               <option>ENG</option>
             </select>
         </div>
+        </div>
+        <div className="header-list-sm">
+          <p>HOME</p>
+          <p>SHOP</p>
         </div>
         <ul className="header-list">
             <li>SHOP</li>

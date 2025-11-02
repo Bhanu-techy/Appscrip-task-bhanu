@@ -19,13 +19,14 @@ const ProductGrid= props => {
     <div className='home-container'>
       <div className='heading-div'>
         <h1 className='heading'> DISCOVER OUR PRODUCTS</h1>
-      <p className='text'>Lorem ipsum dolor sit amet consectetur. Amet est posuerer rhoncus <br/>scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
+      <p className='text'>Lorem ipsum dolor sit amet consectetur. Amet est posuerer rhoncus <br className='break-el'/>scelerisque. Dolor integer scelerisque nibh amet mi ut elementum dolor.</p>
       </div>
       <hr/>
       <div className='filter-head'>
         <div className='dis-flex'>
-          <p className='bold-txt'>3546 ITEMS</p>
+          <p className='bold-txt items-count'>3546 ITEMS</p>
           {showFilters ?  <button onClick={onClickFilters} className='filter-btn'>&gt; HIDE FILTERS</button> : <button onClick={onClickFilters} className='filter-btn'>&lt; SHOW FILTERS</button> }
+          <button className='filter-btn-sm' onClick={onClickFilters}>FILTERS</button>
         </div>
       <div>
         <select className='bold-txt'>
