@@ -111,5 +111,7 @@ ul{
     font-size: 18px;
     }.filter-btn{
         display: none;
+    }.text{
+        font-size: 14px;
     }
 }
